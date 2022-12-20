@@ -1,0 +1,7 @@
+{
+  "name": "pollApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

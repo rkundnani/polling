@@ -1,0 +1,96 @@
+#container {
+    text-align: center;
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+    .logincard{
+        border-radius: 25px;
+        background-color: aliceblue;
+        padding-top: 26px;
+        padding-bottom: 19px;
+        width: 80%;
+        margin-left: 10%;
+
+          .input1{
+            display: block;
+            margin-left: 26px;
+            margin-right: 26px;
+            border-radius: 18px;
+            font-size: 20px;
+            font-family: Roboto;
+            text-align: left;
+            border-style: solid;
+            border-width: 2px;
+            border-color: white;
+            background-color: white;
+            margin-bottom: 20px;
+            height: 44px;
+            padding: 8px;
+            }
+
+            .input{
+                display: block;
+                margin-left: 26px;
+                margin-right: 26px;
+                border-radius: 18px;
+                font-size: 20px;
+                font-family: Roboto;
+                text-align: left;
+                border-style: solid;
+                border-width: 2px;
+                border-color: white;
+                background-color: white;
+                margin-bottom: 10px;
+                height: 44px;
+                padding: 8px;
+                }
+          }
+  
+          .button{
+            height: 39px;
+            width: 131px;
+            --border-radius: 15px;
+            font: Roboto;
+            font-family: roboto;
+            font-size: 18px;
+            --background: #1ab4ff;
+            align-items: right;
+            float: right;
+            margin-right: 26px;
+          }
+          .button1{
+            height: 39px;
+            width: 131px;
+            --border-radius: 15px;
+            font: Roboto;
+            font-family: roboto;
+            font-size: 18px;
+            --background: #1ab4ff;
+            align-items: right;
+            float: right;
+            margin-right: 10px;
+          }
+      }
+    
+  
+  
+  
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }

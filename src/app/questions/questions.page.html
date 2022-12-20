@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="height: 65px; --background: #1ab4ff; color: white; font-size: 30px;font-weight: bold;">
+    <span style="font-size: 25px;font-weight: bold;font-family: Roboto;margin-top: 7px; margin-left: 17px;" (click)="navigate()">
+      <
+    </span>
+    <span style="font-size: 25px;font-weight: bold;font-family: Roboto;margin-top: 7px; margin-left: 17px;">
+      Create Poll
+    </span>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Questions</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-card class="card">
+      <ion-item class="input">
+        <ion-label position="floating" class="float">Question</ion-label>
+        <ion-input placeholder="Enter Question" class="float1" [(ngModel)]="question" maxlength="50"></ion-input>
+      </ion-item>
+    </ion-card>
+
+    <ion-card class="card1">
+      <ion-item class="input">
+        <ion-label position="floating" class="float">Option 1</ion-label>
+        <ion-input placeholder="Enter Option 1" class="float1" [(ngModel)]="opt1" maxlength="25"></ion-input>
+      </ion-item>
+
+      <ion-item class="input">
+        <ion-label position="floating" class="float">Option 2</ion-label>
+        <ion-input placeholder="Enter Option 2" class="float1" [(ngModel)]="opt2"  maxlength="25"></ion-input>
+      </ion-item>
+
+      <ion-item class="input">
+        <ion-label position="floating" class="float">Option 3</ion-label>
+        <ion-input placeholder="Enter Option 3" class="float1" [(ngModel)]="opt3"  maxlength="25"></ion-input>
+      </ion-item>
+
+      <ion-item class="input">
+        <ion-label position="floating" class="float">Option 4</ion-label>
+        <ion-input placeholder="Enter Option 4" class="float1" [(ngModel)]="opt4"  maxlength="25"></ion-input>
+      </ion-item>
+
+
+    </ion-card>
+
+    <ion-button class="button" (click)="create()">Submit</ion-button>
+
+
+  </div>
+</ion-content>
